@@ -1,14 +1,14 @@
 # cPanelApi
 
 
-// Instantiate the CPANEL object.
-require_once "cPanelApi.php";
+   
+    require_once "cPanelApi.php";
 
 
 
 
-
-  $api = new cPanelApi("domain.com","username", "password");
+ ## Instantiate the CPANEL object.
+      $api = new cPanelApi("domain.com","username", "password");
   
-  // Mail adresi oluşturmak
-  echo $api->createEmail("hellomail", "newpassword;123.!<>>>>", "unlimited");
+  ## Mail adresi oluşturmak
+      echo $api->createEmail("hellomail", "newpassword;123.!<>>>>", "unlimited");
